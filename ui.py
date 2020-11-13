@@ -187,7 +187,7 @@ class App():
 		result_SideC_frame = tk.Frame(results_frame, bg=tab_background)
 		result_SideC_frame.grid(row=3, column=1)
 
-		result_SideC_text = tk.Label(result_SideC_frame, text="  Side A: ", bg=tab_background, fg=app_fg, font="roboto 12")
+		result_SideC_text = tk.Label(result_SideC_frame, text="  Side C: ", bg=tab_background, fg=app_fg, font="roboto 12")
 		result_SideC_text.grid(row=0, column=0)
 
 		self.sideC = tk.Text(result_SideC_frame, width=10, height=1)
